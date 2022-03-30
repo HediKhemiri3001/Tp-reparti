@@ -1,0 +1,7 @@
+basically we have some text that all tasks have,
+Task 1 will edit first paragraph for example
+Task 2 will edit second paragraph for example
+when Task 1 edits a text it sends the changed part as a message to the queue which is then read by task 3 and displayed
+same for task 2 and the changes remains in the local version of task 1 and task 2.
+so we for each task we need to have a variable containing the original text the changes to be made, and the position of the changes
+for the position we will choose the line as the referal point.
